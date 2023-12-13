@@ -1,16 +1,130 @@
 
+/* ЧАСТЬ АЯЖАН */
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#slideone {
+    background-color:white;
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#mainayanav {
+    position: sticky;
+    top: 0;
+}
+
+#mainayanav .seytech2 {
+    color: #fed136;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: inline-block;
+    font-size: 24px;
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+    letter-spacing: 2px;
+    z-index: 100;
+}
+
+.navinfo {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 700px;
+    top: -40px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.navlink:hover {
+    color: #fed136;
+}
+
+.ayahead .ayaheading {
+    font-size: 36px;
+    font-style: italic;
+    color: white;
+    line-height: 24px;
+    margin-bottom: 48px;
+    font-family: "Droid Serif", sans-serif;
+    text-align: center;
+}
+
+.ayahead .ayatextcase {
+    text-align: center;
+    font-size: 74px;
+    color: white;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 75px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.ayahead .tellmemore {
+    color: white;
+    background-color: #fed136;
+    border-color: #fed136;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    text-align: center;
+    width: 200px;
+    height: 55px;
+}
+
+.ayahead .tellmemore2 {
+    padding: 10px 10px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+}
+
+/* КОНЕЦ ЧАСТИ АЯЖАН */
+
+
+
+/* ЧАСТЬ КАРИНЫ */
+
 *{
     padding: 0%;
     padding: 0%;
-}
-body{
-    margin: 2px;
-    padding: 0%;
-    margin-right: 1;
-}
-
-.flex{
-    display: flex;
 }
 
 
@@ -26,10 +140,9 @@ body{
     line-height: 1.2;
     letter-spacing: 2px;
 }
-
 #text-kari2{
     font-size: 19px;
-    color: #6C759D;
+    color: #6c757d;
     font-family: 'Droid Serif', serif;
     font-weight: 100;
     font-style: italic;
@@ -37,27 +150,24 @@ body{
     top: -10px;  
 }
 
-img {
+.carda img {
     margin: 10px;
     width: -20px;
     height: 100px;
 }
 
-.card {
+.carda {
     list-style: none;
 }
 
-
-
-.cards {
+.cardi {
     margin-left:15%;
 }
 
 
 .kari-h1 {
     padding-left: 40px;
-    margin-left: -70px;
-    margin-right: 50px;
+    margin-left: -50px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -67,37 +177,839 @@ img {
     font-size: 17px;
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     text-align: center;
+    color: #6c757d;
+}
+
+/* КОНЕЦ ЧАСТИ КАРИНЫ */
+
+/*ЧАСТЬ ЛЮДЫ И АЯЖАН*/
+
+.luda{
+    padding-top: 30px;
+}
+:root {
+    --light-color: white;
+    --dark-color: black;
+    --back-color:#f8f9fa;
+}
+
+.back-color {
+    background-color: var(--back-color);
+    color: var(--dark-color);
+}
+.bg-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+.flex { 
+    display: flex; 
+} 
+
+.trioodin li {
+    list-style: none;
+}
+
+.ourheader .headerclass .portik {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.ourheader .loremportik {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    position: relative;
+    top: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.card { 
+    margin: 10px; 
+    height: 380px; 
+    width: 360px;
+    margin-left: 28px ;
+} 
+     
+.card img { 
+    max-width: 360px; 
+} 
+     
+.card-content { 
+    text-align: center;
+    font-size: 12px;
+} 
+
+.card-content h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: black;
+}
+
+.card-content p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    position: relative;
+    top: -10px;
+}
+
+/* КОНЕЦ ЧАСТИ ЛЮДЫ И АЯЖАН */
+
+/*  ЧАСТЬ ЛЮДЫ */
+.luda-team{
+    background-color: #F8F9FA;
+    margin-top: -20px;
+    padding-top: 40px;
+}
+#header-team {
+    text-align: center;
+}
+#header-team h2 {
+    font-size: 40px;
+    color: rgb(36, 35, 35);
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 2px;
+    margin: 30px 0px 10px 0px;
+
+}
+#header-team h3 {
+    font-size: 16px;
     color: #6C759D;
+    font-family: 'Droid Serif', serif;
+    font-weight: 100    ;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.people img{
+    width: 220px;
+    height: 220px;
+    border: 8px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    margin-bottom: -10px;
+}
+.people #kay{
+    margin-left: 100px;
+}
+.people #diana {
+    margin-right: 100px;
+}
+.people h4{
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 5px;
+    color: rgb(36, 35, 35); 
+    text-align:center;
+}
+.people p{
+    color: #6C759D;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    margin-top: -5px;
+    text-align:center; 
+}
+
+/*     .people{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+    }
+    .people img{
+        width: 250px;
+    }
+    .people #kay{
+        margin-left: 0px;
+    }
+    .people #larry{
+        margin-top: 80px;
+    }
+    .people #diana {
+        margin-right: 0px;
+        margin-top: 80px;
+    }
+    .people p{
+        margin-bottom: 20px;
+    } */
+  
+  .people .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+  
+  .people .twi {
+    width: 40px;
+    height: 40px;
+  }
+    .people .face {
+    width: 40px;
+    height: 40px;
+  }
+    .people .inst {
+    width: 40px;
+    height: 40px;
+  }
+
+
+#loremp{
+    text-align: center;
+    font-size: 16px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding: 12px;
+    color: #6C759D;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.firms{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+    padding-bottom: 40px;
+}
+.firms #crmar {
+    width: 200px;
+    height: 90px;
+    position: relative;
+    top: -15px;
+}
+.firms #envato, #desmo, #tmf{
+    width: 200px;
+    height: 50px;
+}
+
+/* КОНЕЦ ЧАСТИ ЛЮДЫ */
+
+
+/* ЧАСТЬ АРУЖАН */
+section#contact{
+    background-color: #212529;
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.aru-page-section{
+    padding: 6rem 0;
+}
+
+/* section {
+    display: block;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+.aru-container{
+    max-width: 720px;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aru-text-center{
+    text-align: center !important;
+}
+
+/* div{
+    display: block;
+} */
+
+section#contact .aru-section-heading{
+    color: #fff;
+}
+
+.aru-page-section h2.aru-section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.aru-text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.aru-text-center h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.aru-page-section h3.aru-section-subheading {
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 4rem;
+}
+
+.aru-text-muted{
+    color: rgb(116, 116, 116);
+}
+
+.aru-page-section h3{
+    line-height: 1.2;
+    margin-top: 0;
+}
+
+form{
+    display: block;
+    margin-top: 0em;
+}
+
+.aru-mb-5{
+    margin-bottom: 3rem !important;
+}
+.aru-align-items-stretch{
+    align-items: stretch !important;
+}
+
+.aru-row{
+    display: flex wrap;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.aru-col-md-6{
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+section#contact form#contactForm .aru-form-group input.aru-form-control {
+    height: auto;
+}
+
+section#contact form#contactForm .aru-form-group input{
+    padding: 1.25rem;
+}
+
+.aru-form-control{
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+input{
+    overflow: visible;
+    margin: 0;
+}
+
+section#contact form#contactForm p.aru-help-block{
+    margin: 0;
+}
+
+.aru-text-danger{
+    color: #dc3545 !important;
+}
+
+section#contact form#contactForm p{
+    line-height: 1.75;
+    display: block;
+}
+
+section#contact form#contactForm .aru-form-group-textarea textarea {
+    height: 100%;
+}
+
+
+section#contact form#contactForm .aru-form-group textarea {
+    padding: 1.25rem
+}
+
+section#contact form#contactForm .aru-form-group {
+    margin-bottom: 1.5rem;
+}
+
+textarea{
+    overflow: auto;
+    resize: vertical;
+    margin: 0;
+    font-family: inherit;
+}
+
+.aru-text-center{
+    text-align: center !important;
+}
+
+.aru-btn:not(:disabled):not(:disabled){
+    cursor: pointer;
+}
+
+.aru-btn-xl{
+    padding: 1.25rem 2.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.aru-btn-primary {
+    color: #fff;
+    background-color: #fed136;
+    border-color: #fed136;
+}
+
+.aru-btn {
+   display: inline-block;
+   text-align: center;
+   vertical-align: middle;
+   user-select: none;
+   line-height: 1.5;
+   border-radius: 0.25rem;
+   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.aru-col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
 }
 
 
 
-
-
-
-
-@media screen and (min-width: 0px) and (max-width: 500px) {
-  .flex{
-    display: flex;
-    flex-direction: column;
-  }
-  img{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 100px;
-
-    
-  }
-  .kari-h1{
-/*     margin-left: -80px; */
-    white-space:nowrap;
+.aru-footer {
     text-align: center;
+    font-size: 0.9rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.aru-py-4 {
+    padding-top: 1.5rem !important;
+}
+
+footer{
+    display: block;
+}
+
+.aru-container {
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aru-align-items-center {
+    align-items: center !important;
+}
+
+.aru-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+}
+
+.aru-col-lg-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+}
+
+.aru-btn-social {
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+}
+
+.aru-mx-2 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+
+.aru-btn-dark {
+    color: #fff;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.aru-btn{
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+svg:not(:root).aru-svg-inline--fa {
+    overflow: visible;
+}
+
+.aru-svg-inline--fa.aru-fa-w-16 {
+    width: 1em;
+}
+
+.aru-svg-inline--fa {
+    display: inline-block;
+    font-size: inherit;
+    height: 1em;
+    vertical-align: -0.125em;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+}
+
+.aru-svg-inline--fa.aru-fa-w-10 {
+    width: 0.625em;
+}
+
+:not(svg) {
+    transform-origin: 0px 0px;
+}
+
+.svg-inline--fa.fa-w-14 {
+    width: 0.875em;
+}
+
+.aru-mr-3 {
+    margin-right: 1rem !important;
+}
+
+a {
+    color: #fed136;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+/* КОНЕЦ ЧАСТИ АРУЖАН */
+
+@media screen and (min-width:0px) and (max-width:500px) {
+/* Аяжан */
+    #mainayanav {
+        position: sticky;
+        top: 0;
+    }
+    #slideone {
+        margin: 0;
+        background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/1-agency/assets/img/header-bg.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh; 
+    }
+
+    #mainayanav .seytech {
+        border: 1px solid #000000;
+        background-color: #000000;
+        height: 70px;
+    }
+
+    #mainayanav .seytech2 {
+        color: #fed136;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 700;
+        text-align: center;
+        margin-top: 18px;
+        margin-left: 15px;
+        font-size: 24px;
+        line-height: inherit;
+        color: #fed136;
+        text-decoration: none;
+        justify-content: flex-start;
+        letter-spacing: 2px;
+    }
+
+
+    .ayahead .ayaheading {
+        font-size: 24px;
+        font-style: italic;
+        color: white;
+        line-height: 24px;
+        margin-bottom: 48px;
+        font-family: "Droid Serif", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        text-align: center;
+    }
+
+    .ayahead .ayatextcase {
+        text-align: center;
+        font-size: 52px;
+        color: white;
+        font-weight: 700;
+        line-height: 52px;
+        margin-top: -10px;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+
+    .ayahead .tellmemore {
+        color: white;
+        background-color: #fed136;
+        border-color: #fed136;
+        border: 1px solid #fed136;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        border-radius: 4px;
+        text-align: center;
+        width: 200px;
+        height: 55px;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .tellmemore2 {
+        padding: 20px 20px;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 18px;
+        font-weight: 700;
+        text-decoration: none;
+        color: white;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15%;
+    }
+/* Карина */
+    .flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .carda img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 100px;
+    }
+    .kari-h1{
+        margin-left: -80px;
+        white-space:nowrap;
+        text-align: center;
   }
   
-  .karip{
-     margin-left: 100px;
-      word-break: break-all;
+    .karip{
+        margin-left: 100px;
+        word-break: break-all;
      
   }
+/* Ая & Люда */
+
+
+:root {
+    --light-color: white;
+    --dark-color: black;
+}
+
+.bg-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+
+}
+.flex { 
+    display: flex; 
+    flex-direction: column;
+} 
+
+.trioodin li {
+    list-style: none;
+}
+
+#ourheader .headerclass {
+    text-align: center;
+
+}
+
+#ourheader .headerclass .portik {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    margin-top: 100px;
+    margin-right: 1%;
+}
+
+#ourheader .loremportik {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    position: relative;
+    top: -10px;
+}
+
+
+.card { 
+    margin-left: 28px; 
+    height: 380px; 
+    width: 360px; 
+} 
+     
+.card img { 
+    max-width: 360px;
+    margin-left: 0px
+} 
+     
+.card-content { 
+    text-align: center;
+    font-size: 12px;
+} 
+
+.card-content h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+}
+
+.card-content p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #6c757d;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Serif', serif;
+    position: relative;
+    top: -10px;
+}
+
+.khover {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.khover .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.khover .overlay img {
+    width: 360px;
+    height: 267px;
+    opacity: 0.7;
+}
+
+.khover:hover .overlay {
+    opacity: 1;
+}
+
+ 
+/* Люда */
+    .people{
+        display: flex;
+        flex-direction: column; 
+        text-align: center;
+    }
+    .people img{
+        width: 250px;
+    }
+    .people #kay{
+        margin-left: 0px;
+    }
+    .people #larry{
+        margin-top: 80px;
+    }
+    .people #diana {
+        margin-right: 0px;
+        margin-top: 80px;
+    }
+    .people p{
+        margin-bottom: 20px;
+    }
+  
+  .people .social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+  }
+  
+  .people .twi {
+    width: 40px;
+    height: 40px;
+  }
+    .people .face {
+    width: 40px;
+    height: 40px;
+  }
+    .people .inst {
+    width: 40px;
+    height: 40px;
+  }
+
+
+    #loremp{
+        margin: 20px 10px 30px;
+    }
+
+
+    .firms{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .firms #envato{
+        margin-bottom: 20px;
+    }
+  
+    .firms #desmo{
+        margin-bottom: 20px;
+    }
+    .firms #tmf{
+        margin-bottom: 30px;
+    }
+/* Аружан */
 }
